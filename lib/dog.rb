@@ -14,9 +14,13 @@ class Dog
     @@all.each do |all|
       puts all
   end
-end
+  end
 
-def save
-  @@all << self
-end
+  def save
+    @@all << self
+  end
+
+  def self.clear_all
+  end
+  
 end
